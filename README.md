@@ -10,6 +10,8 @@ Script Python ini dirancang untuk menggabungkan data triwulanan dan tahunan dari
 - Menghapus data duplikat secara otomatis.
 - Memproses file yang ada dalam **satu root directory** dengan file utama (`main.py`).
 
+---
+
 ## Persyaratan
 
 ### Python Version
@@ -29,6 +31,8 @@ Anda dapat menginstalnya dengan perintah berikut:
 ```bash
 pip install pandas openpyxl xlrd
 ```
+
+---
 
 ## Format File Input
 
@@ -54,10 +58,7 @@ File yang akan diproses harus:
 3. **Hasil Output**  
    Data yang sudah digabungkan dan dihapus duplikasinya akan disimpan dalam file baru dengan format `sbn-<tahun>-triwulan-tahunan.xlsx`
 
-## Struktur Proyek
-
-Berikut adalah contoh struktur direktori:
-/project-folder ├── main.py ├── sbn-2023.xlsx ├── sbn-2022.xlsx └── README.md
+---
 
 ## Catatan
 
