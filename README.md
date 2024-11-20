@@ -57,11 +57,7 @@ File yang akan diproses harus:
 ## Struktur Proyek
 
 Berikut adalah contoh struktur direktori:
-/project-folder
-├── main.py
-├── sbn-2023.xlsx
-├── sbn-2022.xlsx
-└── README.md
+/project-folder ├── main.py ├── sbn-2023.xlsx ├── sbn-2022.xlsx └── README.md
 
 ## Catatan
 
