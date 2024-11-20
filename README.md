@@ -4,7 +4,7 @@ Script Python ini dirancang untuk menggabungkan data triwulanan dan tahunan dari
 
 ## Fitur Utama
 
-- Membaca file input dengan format nama `sbn-[nama tahun]`.
+- Membaca file input dengan format nama `sbn-<nama tahun>`.
 - Mendukung format file Excel: **.xls** dan **.xlsx**.
 - Menggabungkan data dari berbagai periode (triwulanan dan tahunan).
 - Menghapus data duplikat secara otomatis.
@@ -29,3 +29,25 @@ Anda dapat menginstalnya dengan perintah berikut:
 ```bash
 pip install pandas openpyxl xlrd
 ```
+
+## Format File Input
+
+File yang akan diproses harus:
+
+1. Berformat **.xls** atau **.xlsx**.
+2. Memiliki nama dengan format:  
+   `sbn-<nama tahun>`  
+   Contoh: `sbn-2023.xlsx`
+
+---
+
+## Cara Penggunaan
+
+1. **Letakkan File di Folder yang Sama**  
+   Pastikan semua file input berada dalam satu folder yang sama dengan `main.py`.
+
+2. **Jalankan Program**  
+   Saat menjalankan script, program akan meminta Anda untuk memasukkan tahun yang ingin diproses. Contohnya:
+   ```bash
+   python main.py
+   ```
