@@ -2,6 +2,8 @@
 
 Script Python ini dirancang untuk menggabungkan data triwulanan dan tahunan dari file Excel (_.xls atau _.xlsx\*) yang memiliki format nama tertentu, serta memastikan data yang dihasilkan unik (tidak ada duplikasi).
 
+---
+
 ## Fitur Utama
 
 - Membaca file input dengan format nama `sbn-<nama tahun>`.
