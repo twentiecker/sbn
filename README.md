@@ -42,7 +42,7 @@ File yang akan diproses harus:
 
 1. Berformat **.xls** atau **.xlsx**.
 2. Memiliki nama dengan format:  
-   `sbn-<nama tahun>`  
+   `sbn-<tahun>`  
    Contoh: `sbn-2023.xlsx`
 
 ---
