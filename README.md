@@ -51,3 +51,25 @@ File yang akan diproses harus:
    ```bash
    python main.py
    ```
+3. **Hasil Output**  
+   Data yang sudah digabungkan dan dihapus duplikasinya akan disimpan dalam file baru dengan format `sbn-<tahun>-triwulan-tahunan.xlsx`
+
+## Struktur Proyek
+
+Berikut adalah contoh struktur direktori:
+/project-folder
+├── main.py
+├── sbn-2023.xlsx
+├── sbn-2022.xlsx
+└── README.md
+
+## Catatan
+
+- Pastikan file input menggunakan format nama yang benar, atau program tidak dapat mengenalinya.
+- Data yang digabungkan akan otomatis menghapus duplikasi berdasarkan kriteria unik dalam data.
+
+---
+
+## Kontribusi
+
+Jika Anda ingin mengembangkan atau melaporkan bug, silakan ajukan issue atau pull request ke repository ini.
