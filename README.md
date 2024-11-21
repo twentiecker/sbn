@@ -2,6 +2,11 @@
 
 Script Python ini dirancang untuk menggabungkan data triwulanan dan tahunan dari file Excel (_.xls atau _.xlsx\*) yang memiliki format nama tertentu, serta memastikan data yang dihasilkan unik (tidak ada duplikasi).
 
+## Sumber Data SBN
+
+Sebagai informasi, file-file data terkait **Surat Berharga Negara (SBN)** dapat diunduh melalui tautan resmi berikut:  
+[https://www.djppr.kemenkeu.go.id/posisisbn](https://www.djppr.kemenkeu.go.id/posisisbn)
+
 ---
 
 ## Fitur Utama
